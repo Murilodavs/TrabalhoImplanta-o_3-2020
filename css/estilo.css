@@ -1,0 +1,49 @@
+h4 {
+ text-align: center;
+ color: orange;
+
+
+}
+form{
+background: gainsboro;
+border: 1px solid blanchedalmond;
+border-radius: 10px;
+width: 40%;
+margin: auto;
+margin-top: 25px;
+
+}
+ .form-group{
+padding: 10px;
+ }
+
+
+ .form-control{
+padding: 10px;
+ }
+
+
+ @media screen and (max-width:800px){
+ form{
+    width: 60%;
+    }
+ }
+
+
+ @media screen and (max-width:400px){
+    form{
+       width: 60%;
+    }
+ }
+
+
+button{
+ 
+width: 48%;
+ }
+
+
+ .alert{
+
+display: none;
+ }
